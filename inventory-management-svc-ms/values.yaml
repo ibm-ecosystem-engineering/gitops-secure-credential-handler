@@ -1,0 +1,18 @@
+global:
+  ingressSubdomain: workshop-ocp43-one-3b1fc50af0b2002f0241bdf5d2432efd-0000.sjc03.containers.appdomain.cloud
+  tlsSecretName: workshop-ocp43-one-3b1fc50af0b2002f0241bdf5d2432efd-0000
+
+inventory-management-svc-ms:
+  replicaCount: 3
+  
+  # For OpenShift set route.enabled=true
+  # For Kubernetes set route.enabled=false
+  route:
+    enabled: true
+  
+  # For OpenShift set ingress.enabled=false
+  # For Kubernetes set ingress.enabled=true
+  ingress:
+    enabled: false
+    tlsSecretName: workshop-ocp43-one-3b1fc50af0b2002f0241bdf5d2432efd-0000
+
