@@ -13,6 +13,6 @@ inventory-management-svc-ms:
   # For OpenShift set ingress.enabled=false
   # For Kubernetes set ingress.enabled=true
   ingress:
-    enabled: true
+    enabled: false
     tlsSecretName: workshop-ocp43-one-3b1fc50af0b2002f0241bdf5d2432efd-0000
 
