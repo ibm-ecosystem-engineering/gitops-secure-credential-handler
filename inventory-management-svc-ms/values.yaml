@@ -3,7 +3,7 @@ global:
   tlsSecretName: workshop-ocp43-one-3b1fc50af0b2002f0241bdf5d2432efd-0000
 
 inventory-management-svc-ms:
-  replicaCount: 3
+  replicaCount: 1
   
   # For OpenShift set route.enabled=true
   # For Kubernetes set route.enabled=false
