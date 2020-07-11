@@ -1,4 +1,4 @@
 dependencies:
-- name: inventory-management-svc-ms
+- name: inventory-management-svc-solution
   version: 0.0.1
   repository: https://artifactory-tools.workshop-ocp43-one-3b1fc50af0b2002f0241bdf5d2432efd-0000.sjc03.containers.appdomain.cloud/artifactory/generic-local/kpmg-workshop-team-one/
