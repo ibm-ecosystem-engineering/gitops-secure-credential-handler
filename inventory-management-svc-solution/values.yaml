@@ -1,6 +1,6 @@
 global:
-  ingressSubdomain: workshop-ocp43-one-3b1fc50af0b2002f0241bdf5d2432efd-0000.sjc03.containers.appdomain.cloud
-  tlsSecretName: workshop-ocp43-one-3b1fc50af0b2002f0241bdf5d2432efd-0000
+  ingressSubdomain: appdev-cloudnative-ocp4-3b1fc50af0b2002f0241bdf5d2432efd-0000.us-east.containers.appdomain.cloud
+  tlsSecretName: appdev-cloudnative-ocp4-3b1fc50af0b2002f0241bdf5d2432efd-0000
 
 inventory-management-svc-solution:
   replicaCount: 1
@@ -14,5 +14,5 @@ inventory-management-svc-solution:
   # For Kubernetes set ingress.enabled=true
   ingress:
     enabled: false
-    tlsSecretName: workshop-ocp43-one-3b1fc50af0b2002f0241bdf5d2432efd-0000
+    tlsSecretName: appdev-cloudnative-ocp4-3b1fc50af0b2002f0241bdf5d2432efd-0000
 
