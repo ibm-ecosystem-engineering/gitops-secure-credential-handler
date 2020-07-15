@@ -1,6 +1,6 @@
 global:
-  ingressSubdomain: appdev-cloudnative-ocp4-3b1fc50af0b2002f0241bdf5d2432efd-0000.us-east.containers.appdomain.cloud
-  tlsSecretName: appdev-cloudnative-ocp4-3b1fc50af0b2002f0241bdf5d2432efd-0000
+  ingressSubdomain: sandbox-ocp43-one-710233-eec031765f1e8f31f12a8fbbfd2e92f2-0000.eu-gb.containers.appdomain.cloud
+  tlsSecretName: sandbox-ocp43-one-710233-eec031765f1e8f31f12a8fbbfd2e92f2-0000
 
 inventory-management-svc-solution:
   replicaCount: 1
@@ -14,5 +14,5 @@ inventory-management-svc-solution:
   # For Kubernetes set ingress.enabled=true
   ingress:
     enabled: false
-    tlsSecretName: appdev-cloudnative-ocp4-3b1fc50af0b2002f0241bdf5d2432efd-0000
+    tlsSecretName: sandbox-ocp43-one-710233-eec031765f1e8f31f12a8fbbfd2e92f2-0000
 
