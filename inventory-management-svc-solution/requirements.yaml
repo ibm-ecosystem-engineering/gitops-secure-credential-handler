@@ -1,4 +1,4 @@
 dependencies:
 - name: inventory-management-svc-solution
-  version: 0.0.3
-  repository: https://artifactory-tools.appdev-cloudnative-ocp4-3b1fc50af0b2002f0241bdf5d2432efd-0000.us-east.containers.appdomain.cloud/artifactory/generic-local/appdev-cloudnative-registry/
+  version: 0.0.1
+  repository: https://artifactory-tools.sandbox-ocp43-one-710233-eec031765f1e8f31f12a8fbbfd2e92f2-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/sandbox-ocp43-one/
