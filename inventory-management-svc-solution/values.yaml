@@ -3,7 +3,7 @@ global:
   tlsSecretName: sandbox-ocp43-one-710233-eec031765f1e8f31f12a8fbbfd2e92f2-0000
 
 inventory-management-svc-solution:
-  replicaCount: 1
+  replicaCount: 2
   
   # For OpenShift set route.enabled=true
   # For Kubernetes set route.enabled=false
