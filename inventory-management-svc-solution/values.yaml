@@ -1,9 +1,9 @@
 global:
-  ingressSubdomain: sandbox-ocp43-one-710233-eec031765f1e8f31f12a8fbbfd2e92f2-0000.eu-gb.containers.appdomain.cloud
-  tlsSecretName: sandbox-ocp43-one-710233-eec031765f1e8f31f12a8fbbfd2e92f2-0000
+  ingressSubdomain: cn-workshop-cluster-india-2210d58450b96f76a8d17691176fef08-0000.eu-gb.containers.appdomain.cloud
+  tlsSecretName: cn-workshop-cluster-india-2210d58450b96f76a8d17691176fef08-0000
 
 inventory-management-svc-solution:
-  replicaCount: 2
+  replicaCount: 1
   
   # For OpenShift set route.enabled=true
   # For Kubernetes set route.enabled=false
@@ -14,5 +14,5 @@ inventory-management-svc-solution:
   # For Kubernetes set ingress.enabled=true
   ingress:
     enabled: false
-    tlsSecretName: sandbox-ocp43-one-710233-eec031765f1e8f31f12a8fbbfd2e92f2-0000
+    tlsSecretName: cn-workshop-cluster-india-2210d58450b96f76a8d17691176fef08-0000
 
