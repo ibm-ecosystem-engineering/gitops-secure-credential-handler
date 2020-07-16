@@ -1,4 +1,5 @@
 dependencies:
-- name: inventory-management-svc-solution
-  version: 0.0.2
-  repository: https://artifactory-tools.cn-workshop-cluster-india-2210d58450b96f76a8d17691176fef08-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/rg-workshop-india/
+  - name: inventory-management-svc-solution
+    version: 0.0.3
+    repository: >-
+      https://artifactory-tools.cn-workshop-cluster-india-2210d58450b96f76a8d17691176fef08-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/rg-workshop-india/
