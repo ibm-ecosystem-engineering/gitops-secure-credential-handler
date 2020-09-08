@@ -14,5 +14,5 @@ inventory-management-svc-solution:
   # For Kubernetes set ingress.enabled=true
   ingress:
     enabled: false
-    tlsSecretName: cn-workshop-cluster-india-2210d58450b96f76a8d17691176fef08-0000
+    tlsSecretName: appdev-cloudnative-ocp44-3b1fc50af0b2002f0241bdf5d2432efd-0000
 
