@@ -1,6 +1,6 @@
 global:
-  ingressSubdomain: cn-workshop-cluster-india-2210d58450b96f76a8d17691176fef08-0000.eu-gb.containers.appdomain.cloud
-  tlsSecretName: cn-workshop-cluster-india-2210d58450b96f76a8d17691176fef08-0000
+  ingressSubdomain: appdev-cloudnative-ocp44-3b1fc50af0b2002f0241bdf5d2432efd-0000.eu-gb.containers.appdomain.cloud
+  tlsSecretName: appdev-cloudnative-ocp44-3b1fc50af0b2002f0241bdf5d2432efd-0000
 
 inventory-management-svc-solution:
   replicaCount: 1
