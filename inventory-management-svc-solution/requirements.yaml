@@ -1,4 +1,5 @@
 dependencies:
-- name: inventory-management-svc-solution
-  version: 0.0.3
-  repository:  https://artifactory-tools.appdev-cloudnative-ocp44-3b1fc50af0b2002f0241bdf5d2432efd-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/sandbox-kpmg/
+  - name: inventory-management-svc-solution
+    version: 0.0.4
+    repository: >-
+      https://artifactory-tools.appdev-cloudnative-ocp44-3b1fc50af0b2002f0241bdf5d2432efd-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/sandbox-kpmg
