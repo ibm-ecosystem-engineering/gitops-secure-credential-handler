@@ -1,8 +1,8 @@
 global:
-  ingressSubdomain: appdev-cloudnative-ocp44-3b1fc50af0b2002f0241bdf5d2432efd-0000.eu-gb.containers.appdomain.cloud
-  tlsSecretName: appdev-cloudnative-ocp44-3b1fc50af0b2002f0241bdf5d2432efd-0000
+  ingressSubdomain: appdev-cloudnativ-143836-3b1fc50af0b2002f0241bdf5d2432efd-0000.eu-gb.containers.appdomain.cloud
+  tlsSecretName: appdev-cloudnativ-143836-3b1fc50af0b2002f0241bdf5d2432efd-0000
 
-inventory-management-svc-solution:
+secret-manager-app:
   replicaCount: 3
   
   # For OpenShift set route.enabled=true
@@ -14,5 +14,5 @@ inventory-management-svc-solution:
   # For Kubernetes set ingress.enabled=true
   ingress:
     enabled: false
-    tlsSecretName: appdev-cloudnative-ocp44-3b1fc50af0b2002f0241bdf5d2432efd-0000
+    tlsSecretName: appdev-cloudnativ-143836-3b1fc50af0b2002f0241bdf5d2432efd-0000
 
