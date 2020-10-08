@@ -3,7 +3,7 @@ global:
   tlsSecretName: appdev-cloudnativ-143836-3b1fc50af0b2002f0241bdf5d2432efd-0000
 
 secret-manager-app:
-  replicaCount: 1
+  replicaCount: 2
   
   # For OpenShift set route.enabled=true
   # For Kubernetes set route.enabled=false
