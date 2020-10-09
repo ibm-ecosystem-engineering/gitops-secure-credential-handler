@@ -1,0 +1,18 @@
+global:
+  ingressSubdomain: appdev-cloudnativ-143836-3b1fc50af0b2002f0241bdf5d2432efd-0000.eu-gb.containers.appdomain.cloud
+  tlsSecretName: appdev-cloudnativ-143836-3b1fc50af0b2002f0241bdf5d2432efd-0000
+
+secret-manager-app:
+  replicaCount: 1
+  
+  # For OpenShift set route.enabled=true
+  # For Kubernetes set route.enabled=false
+  route:
+    enabled: true
+  
+  # For OpenShift set ingress.enabled=false
+  # For Kubernetes set ingress.enabled=true
+  ingress:
+    enabled: false
+    tlsSecretName: appdev-cloudnativ-143836-3b1fc50af0b2002f0241bdf5d2432efd-0000
+
