@@ -4,17 +4,18 @@ This repository contains a number of samples to help you configure Continuous De
 
 ### Problem:
 
-Ideally for continues delivery secrets need for deploying the application. Gitops repository contains secrets yaml thats cause security viloation problem.
+Continues Delivery need secrets for deploying the application. Gitops repository contains secrets YAML that causes security violation problem.
 
 ### Solution: 
 
-To Solve the above problem. We are creating secrets using IBM Key Protect. So the secret file not available in the Gitops repo. For Continues Delivery it will fetch secrets from IBM Key Protect and deploye the application in testing environment. 
+To solve the above problem. We are creating secrets using IBM Key Protect. So the secret file not available in the Gitops repo. For Continues Delivery it will fetch secrets from IBM Key Protect and deploy the application in a testing environment.
 
 
-For achieving above solution we need to create the two application in ArgoCD.
+For achieving the above solution we need to create the two application in ArgoCD.
 
-1. Deploy the application in test envrionment to configure Continuous Delivery (CD) using GitOps.
-2. Deploye the application with secret configuration thats contains KeyId of IBM Key Protect and it will pull the secret from Key Protect.
+1. Deploy the application in the test environment to configure Continuous Delivery (CD) using GitOps.
+
+2. Deploy the application with a secret configuration that contains KeyId of IBM Key Protect and it will pull the secret from Key Protect.
 
 
 Argo CD follows the GitOps pattern of using Git repositories as the source of truth for defining the desired application state. Kubernetes manifests can be specified in several ways:
