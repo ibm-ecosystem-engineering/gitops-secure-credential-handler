@@ -1,4 +1,4 @@
-# Continuous Deployment with Argo CD & Pull the Secret From Key Protect Using Key Protect Plugin in ArgoCD
+# Continuous Deployment with Argo CD & IBM Key Protect
 
 This repository contains a number of samples to help you configure Continuous Delivery (CD) using GitOps and Key Protect Plugin  ArgoCD. [Argo CD](https://argoproj.github.io/argo-cd/) is an opensource tool that has been developed to enable cloud native developers enable declarative GitOps continuous delivery tool with Kubernetes. It fully supports IBM Kubernetes Services and Red Hat OpenShift.
 
