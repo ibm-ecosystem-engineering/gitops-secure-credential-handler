@@ -1,6 +1,6 @@
 # Continuous Deployment with Argo CD & IBM Key Protect
 
-This repository contains a number of samples to help you configure Continuous Delivery (CD) using GitOps and Configure Secret using Key Protect Plugin in ArgoCD. 
+This repository contains a sample gitops application, to help you configure Continuous Delivery (CD) using GitOps and  Application Secret using Key Protect Plugin in ArgoCD. 
 
 ### Problem:
 
