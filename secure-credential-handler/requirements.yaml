@@ -1,5 +1,5 @@
 dependencies:
   - name: secure-credential-handler
-    version: 0.0.13
+    version: 0.0.14
     repository: >-
       https://artifactory-tools.appdev-cloudnativ-143836-3b1fc50af0b2002f0241bdf5d2432efd-0000.eu-gb.containers.appdomain.cloud/artifactory/generic-local/kpmg-cloudnative
